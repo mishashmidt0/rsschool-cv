@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/free-icon-farmer-4478094.svg" type="image/x-icon">
+    <title>&#128075;Misha</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id='nav1'>
+        <button class="burger burger-line"><span>nav</span></button>
+        <nav class='burger-nav'>
+            <ul class="section_header-nav_ul burger-nav_ul">
+                <li> <a href="#Summary"> Summary</a></li>
+                <li><a href="#Work"> Work experience</a></li>
+                <li><a href="#Skills"> Technical Skills</a></li>
+                <li><a href="#Code"> Code Sample</a></li>
+                <li><a href="#Education"> Education</a></li>
+                <li><a href="#Languages"> Languages</a></li>
+            </ul>
+        </nav>
+
+
+
+    </div>
+    <header class="section_outer section_header">
+        <section class="section_header-block">
+            <div class="section_header-info">
+                <img class="section_header-img" src="./img/my_face.jpg" alt="my_face">
+                <div>
+                    <h1 class="section_header-info_name">Mikhail Ponomarenko</h1>
+                    <p class="section_header-info_date">09.03.1997 | Mirny city, Russia</p>
+                </div>
+            </div>
+            <div class="section_header-contact">
+                <ul>
+                    <li class="section_header-contact_git">
+
+                        <a href="https://github.com/mishashmidt0">https://github.com/mishashmidt0</a>
+
+                    </li>
+                    <li class="section_header-contact_email">
+
+                        <a href="mailto:mishashmidt0@gmail.com">mishashmidt0@gmail.com</a>
+
+                    </li>
+                    <li class="section_header-contact_tel">
+
+                        <a href="trel:+7-911-656-97-89">+7-911-656-97-89</a>
+
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <nav class="section_header-nav">
+            <ul class="section_header-nav_ul">
+                <li> <a href="#Summary"> Summary</a></li>
+                <li><a href="#Work"> Work experience</a></li>
+                <li><a href="#Skills"> Technical Skills</a></li>
+                <li><a href="#Code"> Code Sample</a></li>
+                <li><a href="#Education"> Education</a></li>
+                <li><a href="#Languages"> Languages</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="section_outer">
+        <article class="content">
+            <h2>Front-end developer</h2>
+            <section class=" section_main-summary section_main">
+                <h2 id="Summary">Summary</h2>
+                <p>I am a quick learner. Given enough time and internet access I can find the solution to a problem and
+                    educate myself on a given topic. I am comfortable working in large teams and not afraid to work
+                    independently either.
+                </p>
+            </section>
+            <section class="section_main-work section_main">
+                <h2 id="Work">Work experience</h2>
+                <div>
+                    <h3>June 2021 - present time | Cosmodrome Plesetsk | Engineer</h3>
+                    <ul>
+                        <li>Operation of space technology</li>
+                        <li>Carrying out maintenance</li>
+                        <li>Documentation introductions</li>
+                    </ul>
+                </div>
+            </section>
+            <section class="section_main-skiils section_main">
+                <h2 id="Skills">Technical Skills</h2>
+                <ul>
+                    <li>HTML, CSS, Sass</li>
+                    <li>JavaScript, basic OOP</li>
+                    <li>Git, VScode</li>
+                    <li>Photoshop, Figma</li>
+                </ul>
+            </section>
+            <section class="section_main-code section_main">
+                <h2 id="Code">Code Sample</h2>
+                <pre>function createPhoneNumber(numbers){
+                numbers = numbers.join('');
+                return '(' + numbers.substring(0, 3) + ') ' 
+                    + numbers.substring(3, 6) 
+                    + '-' 
+                    + numbers.substring(6);
+               }
+            </pre>
+            </section>
+            <section class="section_main-education section_main">
+                <h2 id="Education">Education</h2>
+                <p>Studied at the Military Space Academy (2015 - 2020)</p>
+            </section>
+            <section class="section_main-languages section_main">
+                <h2 id="Languages">Languages</h2>
+                <ul>
+                    <li>Russian - Native</li>
+                    <li>English - A1</li>
+                </ul>
+            </section>
+        </article>
+    </main>
+    <footer class="section_footer">
+        <section class="section_outer section_footer-block">
+            <a href="https://rs.school/js/"><img class="rsschool" src="./img/logo_rsschool.svg" alt="rsschool"></a>
+            <div>
+                <h2>2021</h2>
+                <p><a href="https://github.com/mishashmidt0">GitHub: mishashmidt0</a></p>
+            </div>
+            <a href="https://github.com/mishashmidt0">
+                <img class="githab" src="./img/github-icon.svg" alt="logo_githab">
+            </a>
+        </section>
+    </footer>
+    <script>
+
+        document.querySelector('.burger').addEventListener('click', function (e) {
+            e.preventDefault();
+            if (this.classList.contains('is-active')) {
+                this.classList.remove('is-active')
+                document.getElementById('nav1').classList.remove('menu-active')
+
+                document.querySelector('.section_header-nav_ul').classList.remove('is-active')
+
+                document.body.classList.remove('body-active')
+            } else {
+                this.classList.add('is-active')
+                document.getElementById('nav1').classList.add('menu-active')
+                document.querySelector('.section_header-nav_ul').classList.add('is-active')
+                document.body.classList.add('body-active')
+            }
+        });
+    </script>
+</body>
+
+</html>
