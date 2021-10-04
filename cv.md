@@ -25,4 +25,4 @@ Adobe Photoshop | Microsoft Office | SolidWorks
 
   ## Languages:
 
-Russian - native | English - A1
+Russian - native | English - A2
