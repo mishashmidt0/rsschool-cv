@@ -1,7 +1,5 @@
 # Ponomarenko Mikhail Andreevich 
 
-
-
 09/03/1997 | Mirny city, Russia | + 7-999-211-26-53 | mishashmidt0gmail.com
 
 I am a quick learner. Given enough time and internet access I can find the solution to a problem and educate myself on a given topic. I am comfortable working in large teams and not afraid to work independently either.
