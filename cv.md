@@ -6,14 +6,12 @@ I am a quick learner. Given enough time and internet access I can find the solut
 
   ## Work experience:
 
-
 **June 2021 - present time | Cosmodrome Plesetsk | Engineer**
 * Operation of space technology
 * Carrying out maintenance
 * Documentation introductions
 
   ## Skills:
-
 
 **Programming skills**
 * HTML
